@@ -25,7 +25,7 @@ Prototypes: there was no Adobe XD or Figma prototypes for the initial idea, and 
 
 <p align="center">
 
-![Desktop](https://raw.githubusercontent.com/alysonvilela/fone-landing-page/master/design/desktop.png)
+![Desktop](https://raw.githubusercontent.com/alysonvilela/fone-landing-page/master/design/desktop.png)<br>
   
 ![Mobile](https://raw.githubusercontent.com/alysonvilela/fone-landing-page/master/design/mobile.png)</p>
  
