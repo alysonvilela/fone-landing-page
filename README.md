@@ -25,7 +25,7 @@ Prototypes: there was no Adobe XD or Figma prototypes for the initial idea, and 
 
 <p align="center">
 
-![Desktop](https://raw.githubusercontent.com/alysonvilela/fone-landing-page/master/design/desktop.png)
+![Desktop](https://raw.githubusercontent.com/alysonvilela/fone-landing-page/master/design/desktop.png)<br>
   
 ![Mobile](https://raw.githubusercontent.com/alysonvilela/fone-landing-page/master/design/mobile.png)</p>
  
@@ -75,7 +75,7 @@ Remember, there was no grid template, then i used a couple basic resources for i
 ## ADAPTS
 As the project was going, could percept that all thing was so **crude*, then I've done a couple ajustments.
 
-The elements used for it was a **shadow-box** at **.contents** on desktop layout. Also add a animations on the headphone's image block, calling user's attention for it beauty and design.
+The elements used for it was a **shadow-box** at **.contents** on desktop layout. Also added a animations on the headphone's image block, calling user's attention for it beauty and design.
 
 ## FINAL PROJECTS
 
