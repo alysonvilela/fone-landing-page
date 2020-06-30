@@ -43,6 +43,14 @@ body {
         margin: 0 .1em;
         text-decoration: none;
         color: black;
+        transition: .3s ease-in-out;
+        border-radius: 50px;
+        border-color: transparent;
+    }
+
+    header nav div.contents ul li a:hover {
+        color: white;
+        background: #ca3b3a;
     }
     
     .icons{
@@ -71,7 +79,7 @@ body {
         align-items: center;
         margin: 5% auto;
         width: 100%;
-        background-image: linear-gradient(white, rgba(0, 0, 0, 0.02));
+        background-image: radial-gradient(70% 70% at 50% 100%,#e8e8e8 0,#fff 100%);
     }
 
     section#home div.productimage {
@@ -91,7 +99,7 @@ body {
     section#home div.content {
         display: flex;
         flex-direction: column;
-        margin: 0 15%;
+        margin: 0 15% .4em;
     }
     
     section#home div.content .title, .rating, .driver, .technical, .pricing{
@@ -145,22 +153,6 @@ body {
     
     /* ------ End of HOME section ------ */
 
-    /* KEYFRAMES */
-    @keyframes float{
-        0%{
-            transform: translateZ(0);
-        }
-        65%{
-            transform: translatey(15px);
-        }
-        
-        100%{
-            transform: translateZ(0);
-        }
-
-    }
-
-
     /* ------ Start of INFORMATIONS section ------ */
     
     section#informations {
@@ -180,11 +172,32 @@ body {
         
     }
 
+    section#informations div.informations ul li{
+        /* padding: .3em; */
+        margin: .3em;
+    }
+
     section#informations div.informations ul img {
         width: 1.5em;
     }
 
         /* ------ END of INFORMATIONS section ------ */
+
+/* #####################################---- RESPONSE ADJUSTMENTS AND ANIMATIONS ----##################################### */
+        /* KEYFRAMES */
+        @keyframes float{
+            0%{
+                transform: translateZ(0);
+            }
+            65%{
+                transform: translatey(15px);
+            }
+            
+            100%{
+                transform: translateZ(0);
+            }
+    
+        }
 
         @media screen and (min-width: 650px){
 

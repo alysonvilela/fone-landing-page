@@ -1,79 +1,86 @@
-<br />
+# HOW AND WHY IT STARTS
+
+The UI design was developed by <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a> for <a href="https://www.devchallenge.com.br/">DevChallenge</a>, and on this article I'm going to tell you about how was the process of creating this Headphone's landing page.
+
+Prototypes: there was no Adobe XD or Figma prototypes for the initial idea, and it was bad and good for these two reasons:
+
+- **Bad**: using prototypes, the work is clearly more efficient and fast to make it all done.
+
+- **Good**: without it, I could have a basis for sizing and how I would insert blocks inside of the website. Then probably on the future, things like flexbox concepts, em/rem units and correct font-sizing will be automatic.
+
 <p align="center">
-    <img src="https://i.imgur.com/YuUaCDv.gif" alt="Logo" width="1000">
+    <img src="https://i.imgur.com/YuUaCDv.gif" alt="Logo" width="1000"> </p>
 
-  <h3 align="center">Fone landing page by <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a></h3>
- <br />
-  <p align="center">
-     Página para compra de um fone de ouvido
-       <br />
-    <br />
-    <a href="https://github.com/devchallenge-io/one-landing-page">Desafio</a>
-    ·
-    <a href="https://www.devchallenge.com.br/">DevChallenge</a>
-  </p>
-</p>
+## RESUME
 
-## Índice
+* [WHY IT STARTS](##HOW-AND-WHY-IT-STARTS) 
+* [MODELS](#MODELS)
+* [MOBILE FIRST CONCEPT](#MOBILE-FIRST-CONCEPT)
+* [THE FIRST STEPS](#THE-FIRST-STEPS)
+* [CSS: REQUIREMENTS](#CSS:-REQUIREMENTS)
+* [ADAPTS](#ADAPTS) 
+* [FINAL PROJECT](#FINAL-PROJECTS)   
 
-* [Devchallenge](#devchallenge) 
-* [Desafio](#desafio)
-* [Techs](#techs)
-* [Como começar](#como-começar)
-* [Dicas](#dicas)  
-  * [Cores](#cores)
-  * [Modelo](#modelo)
-  * [Imagens](#imagens)
-  * [Icones](#icones)
-  * [Tipo de fonte](#tipo-de-fonte)
-* [Compartilhe](#compartilhe)
+## MODELS
 
-# Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador! Participe da nossa <a href="https://discord.gg/yvYXhGj">comunidade</a> o/
+<p align="center">
 
-# Desafio
-Seu desafio é criar uma página para compra de um fone de ouvido! O modelo final está disponível na pasta "design"
+![Desktop](https://raw.githubusercontent.com/alysonvilela/fone-landing-page/master/design/desktop.png)
+  
+![Mobile](https://raw.githubusercontent.com/alysonvilela/fone-landing-page/master/design/mobile.png)</p>
+ 
 
-## Requisitos:
-- Sua página deverá conter um menu superior com as seções da loja (home, about, products e support)<br>
-- Sua página deverá contar as informações sobre o produto e botão para adicionar o mesmo no carrinho de compras<br>
-- Sua página deverá ser responsiva
+ <p align="center"> For this project, these colors was used: <br>
+Red: #ca3b3a<br>
+Black: #161616<br>
+Gray: #707070 </p>
 
-### Requisitos bônus
-- Você poderá adicionar um menu drop down para aparecer quando o usuário clicar no ícone superior direito.
-- Você poderá adicionar mais imagens do produto quando o usuário clicar nas opções (bolinhas) que aparecem ao lado esquerdo do produto
+## MOBILE FIRST CONCEPT
+The idea is user experience. With a little research it is possible to know which shopping sites is most used by mobile users. And for developing it is technicaly simple to make it done as [Polypane](https://polypane.app/blog/responsive-design-ground-rules/) tell us on this article.
+  
 
-# Techs: 
-- HTML e CSS
-- Framework ou linguagem que preferir :)
+## THE FIRST STEPS
 
-# Como começar:
-1 - Use esse template (clicando em Use this template) ou faça um fork deste repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
-4 - Compartilhe seu resultado com a comunidade! Se puder, mostre seus resultado aqui no repositório também, criando uma Issue :)<br>
+There was no prototypes, then the first thing I did was think about how every item would be set in a block. On home section for example, it was possible to recongnize that there was two block (an image, and a information block) and both would be resized as screen width is changed.
 
-# Dicas
+Then, the first items list was created for this project:
 
-## Cores:
-Vermelho: #ca3b3a<br>
-Preto: #161616<br>
-Cinza: #707070
+ - HTML
+	- Identify what will be Flexbox, Block, Inline
+     - Default body
+       		- Header with navbar
+       		- Home section
+       		- Info sectio
+- CSS
+	- Format root settings
+	- Import font
+		- Code
 
-## Modelo:
-O modelo final desktop e mobile está disponível na pasta `./design`
+With all this, a diagram ~~not so beauty, but understandable~~ was made and became a basis for all elements used.
 
-## Imagens
-As imagens utilizadas estão disponíveis na pasta `./assets`
+You can see the diagram [right here](https://github.com/alysonvilela/fone-landing-page/projects/3).
 
-## Icones
-Para os ícones, recomendamos que utilize alguma biblioteca, como o Font Awesome
+## CSS: REQUIREMENTS
+Remember, there was no grid template, then i used a couple basic resources for it.
 
-## Tipo de fonte:
-- Montserrat
+**Most used resources:**
+- Flexbox
+    - Flex direction
+    - Justify-content
+    - Align-items
+- Padding
+- Margin
+- Media Query
 
-# Compartilhe!
-Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
-Faça um print, gif ou vídeo e compartilhe o resultado no seu Linkedin<br>
+## ADAPTS
+As the project was going, could percept that all thing was so **crude*, then I've done a couple ajustments.
 
-Desafio criado por  <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a> :)
+The elements used for it was a **shadow-box** at **.contents** on desktop layout. Also add a animations on the headphone's image block, calling user's attention for it beauty and design.
+
+## FINAL PROJECTS
+
+You can see the project done [right here](https://alysonvilela.github.io/fone-landing-page)
+
+*OBS: At the navbar, I've inserted a span on icons place for represent what it would be.*
+
+Challenge created by <a href="https://www.linkedin.com/in/emmanuel-messias-535621127/">Emmanuel Messias</a> :)

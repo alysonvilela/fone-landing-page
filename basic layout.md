@@ -18,44 +18,46 @@ Wireless connectivity using bluetooth
 
 
 
--body
-    -header
-        -nav
-            -div logo
-            -div contents
-            -div icons
-    -section Home
-        -div image
-        -div content
-            -title
-                -title  
-                -description  
-            -rating
-                -star
-                -star
-                -star
-                -star
-                -rating number
-            -driving
-                -driving subtitle
-                -agency
-            -tecnical
-                -frequency subtitle
-                -info
-            -pricing
-                -pricenumber
-                -cta
-    -section copywriting
-        -div resolution
-            -icon
-            -text
-        -div bluetooth
-            -icon
-            -text
-        -div battery
-            -icon
-            -text
+- [ ] body
+     - [ ] header
+         - [ ] nav
+             - [ ] div logo
+             - [ ] div contents
+             - [ ] div icons
+     - [ ] section Home
+         - [ ] div image
+         - [ ] div content
+             - [ ] title
+                 - [ ] title  
+                 - [ ] description  
+             - [ ] rating
+                 - [ ] star
+                 - [ ] star
+                 - [ ] star
+                 - [ ] star
+                 - [ ] rating number
+             - [ ] driving
+                 - [ ] driving subtitle
+                 - [ ] agency
+             - [ ] tecnical
+                 - [ ] frequency subtitle
+                 - [ ] info
+             - [ ] pricing
+                 - [ ] pricenumber
+                 - [ ] cta
+     - [ ] section copywriting
+         - [ ] div resolution
+             - [ ] icon
+             - [ ] text
+         - [ ] div bluetooth
+             - [ ] icon
+             - [ ] text
+         - [ ] div battery
+             - [ ] icon
+             - [ ] text 
 
 
     
+
+
     
