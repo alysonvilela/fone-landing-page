@@ -16,7 +16,7 @@ Não houve nenhum protótipo em Adobe XD ou Figma para que a conclusão do proje
 * [MODELOS](#MODELOS)
 * [MOBILE FIRST CONCEPT](#MOBILE-FIRST-CONCEPT)
 * [OS PRIMEIROS PASSOS](#OS-PRIMEIROS-PASSOS)
-* [CSS: REQUISITOS](#CSS:-REQUISITOS)  
+* [CSS: REQUISITOS](#CSS-REQUISITOS)  
 * [ADAPTAÇÕES](#ADAPTAÇÕES) 
 * [PROJETO FINAL](#PROJETO-FINAL) 
 
@@ -60,7 +60,7 @@ Com isso, fiz um diagrama ~~não tão bonito, mas que eu conseguia entender~~ qu
 
 Você consegue ver o diagrama [aqui](https://github.com/alysonvilela/fone-landing-page/projects/3).
 
-## CSS: REQUISITOS
+## CSS REQUISITOS
 Como o sistema de grids não foi utilizado, utilizou-se recursos e sistemas básicos para toda semântica.
 
 **Os atributos mais utilizados foram:**

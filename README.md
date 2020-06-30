@@ -17,7 +17,7 @@ Prototypes: there was no Adobe XD or Figma prototypes for the initial idea, and 
 * [MODELS](#MODELS)
 * [MOBILE FIRST CONCEPT](#MOBILE-FIRST-CONCEPT)
 * [THE FIRST STEPS](#THE-FIRST-STEPS)
-* [CSS: REQUIREMENTS](#CSS:-REQUIREMENTS)
+* [CSS: REQUIREMENTS](#CSS-REQUIREMENTS)
 * [ADAPTS](#ADAPTS) 
 * [FINAL PROJECT](#FINAL-PROJECTS)   
 
@@ -60,7 +60,7 @@ With all this, a diagram ~~not so beauty, but understandable~~ was made and beca
 
 You can see the diagram [right here](https://github.com/alysonvilela/fone-landing-page/projects/3).
 
-## CSS: REQUIREMENTS
+## CSS REQUIREMENTS
 Remember, there was no grid template, then i used a couple basic resources for it.
 
 **Most used resources:**
@@ -75,7 +75,7 @@ Remember, there was no grid template, then i used a couple basic resources for i
 ## ADAPTS
 As the project was going, could percept that all thing was so **crude*, then I've done a couple ajustments.
 
-The elements used for it was a **shadow-box** at **.contents** on desktop layout. Also add a animations on the headphone's image block, calling user's attention for it beauty and design.
+The elements used for it was a **shadow-box** at **.contents** on desktop layout. Also added a animations on the headphone's image block, calling user's attention for it beauty and design.
 
 ## FINAL PROJECTS
 
